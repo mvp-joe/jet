@@ -1,0 +1,14 @@
+{
+  "name": "John Doe",
+  "friends": [
+    {
+      "name": "Jane Doe",
+      "friends": [
+        {
+          "name": "Jimmy Doe",
+          "friends": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+version: 3
+
+tasks:
+  basic-test:
+    desc: Basic jet example
+    dir: cmd/jet
+    cmds:
+      - go run . < ../../examples/basic.json -f ../../examples/basic.js | jless
+
+  advanced-test:
+    desc: Advanced jet example
+    dir: cmd/jet
+    cmds:
+      - go run . < ../../examples/advanced.json -f ../../examples/advanced.js | jless
+
+  install:
+    desc: Build and install jet
+    dir: cmd/jet
+    cmds:
+      - go install .
